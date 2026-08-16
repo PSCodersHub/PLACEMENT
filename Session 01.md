@@ -3,7 +3,7 @@
 
 ### Question 1
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 if ( 5 + 3 * 6 )
@@ -50,7 +50,7 @@ int main() {
 >
 > **P U A S R E B L T A C**
 >
-> * **P = Primary / Postfix operators** — `()`, `[]`, `.`, `->`, function calls, postfix `++` and `--`
+> * **P = Postfix / Primary expressions** — `()`, `[]`, `.`, `->`, function calls, postfix `++` and `--`
 > * **U = Unary operators** — prefix `++`, `--`, `+`, `-`, `!`, `~`, `*`, `&`, `sizeof`, type cast, etc.
 > * **A = Arithmetic operators** — `*`, `/`, `%`, `+`, `-`
 > * **S = Shift operators** — `<<`, `>>`
@@ -141,7 +141,7 @@ int main() {
 
 ### Question 2
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int num = 20 ;
@@ -171,7 +171,7 @@ int main() {
 * **Step 2:** The `if` statement checks the condition `num == 10`. Since 20 is not equal to 10, this evaluates to false.
 * **Step 3:** Notice the semicolon `;` immediately following the `if` condition. In C, this acts as an empty statement (or null statement) representing the body of the `if` block.
 * **Step 4:** Because the condition is false, the program skips this empty statement.
-* **Step 5:** The `printf(" Ten ");` is completely outside of the `if` block's scope. Therefore, it executes unconditionally as the next sequential step in the program.
+* **Step 5:** Because there are no braces `{}`, the `if` controls only the immediately following statement. The `printf(" Ten ");` statement is therefore executed independently.
 
 **Final output:**
 `Ten`
@@ -180,7 +180,7 @@ int main() {
 
 ### Question 3
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int num = 20 ;
@@ -212,7 +212,7 @@ int main() {
 * **Step 2:** The program evaluates `if ( num == 10 )`, which is false.
 * **Step 3:** The line immediately below the `if` statement contains only a semicolon `;`. This behaves exactly like Question 2; it is a null statement serving as the body of the `if` block.
 * **Step 4:** Because the condition is false, the null statement is ignored.
-* **Step 5:** The program continues to the next independent statement, `printf(" Ten ");`, and executes it.
+* **Step 5:** Because there are no braces `{}`, the `if` controls only the immediately following statement. The `printf(" Ten ");` statement is therefore executed independently.
 
 **Final output:**
 `Ten`
@@ -221,7 +221,7 @@ int main() {
 
 ### Question 4
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int main()
@@ -267,7 +267,7 @@ int main() {
 
 ### Question 5
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int main()
@@ -311,7 +311,7 @@ int main() {
 * **Step 3:** In C, the addition operator `+` has higher precedence than the bitwise left-shift operator `<<`. So, it evaluates as `movie << (2 + movie)`.
 * **Step 4:** Substituting the value of `movie`, we get `1 << (2 + 1)`, which simplifies to `1 << 3`.
 * **Step 5:** Left-shifting the binary value 1 by 3 places yields 8 (1 * 2³ = 8).
-* **Step 6:** The switch block jumps to `case 8:` and executes the corresponding `printf`. (Note: Since there are no break statements and case 8 is the last case, it simply prints and exits the switch).
+* **Step 6:** The `switch` expression evaluates to `8`, so control transfers to `case 8:` and executes the corresponding `printf`. (Note: Since there are no break statements and case 8 is the last case, it simply prints and exits the switch).
 
 **Final output:**
 ` Race`
@@ -320,7 +320,7 @@ int main() {
 
 ### Question 6
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 void main()
@@ -363,7 +363,7 @@ int main() {
 
 ### Question 7
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int main()
@@ -417,7 +417,7 @@ int main() {
 
 ### Question 8
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int main()
@@ -470,7 +470,7 @@ int main() {
 
 ### Question 9
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int main()
@@ -507,7 +507,7 @@ int main() {
 * **Step 2:** The `if` statement uses the logical OR (`||`) operator. Evaluation starts on the left side: `++a`.
 * **Step 3:** `a` is pre-incremented, updating its value to 6.
 * **Step 4:** Because 6 is a non-zero (true) value, and the operator is a logical OR, the entire condition is guaranteed to be true regardless of the right side.
-* **Step 5:** C utilizes "short-circuit evaluation" for optimization. Because the left side is true, it skips evaluating the right side entirely. `++b` is never executed, so `b` remains 10.
+* **Step 5:** C utilizes "short-circuit evaluation" for `||`. Because the left side is true, it skips evaluating the right side entirely. `++b` is never executed, so `b` remains 10.
 * **Step 6:** The `if` block executes, printing the values of `a` and `b`.
 
 **Final output:**
@@ -517,7 +517,7 @@ int main() {
 
 ### Question 10
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int main()
@@ -570,7 +570,7 @@ C=200
 
 ### Question 11
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int num = 5 ;
@@ -613,7 +613,7 @@ int main() {
 
 ### Question 12
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int num = 10 ;
@@ -655,7 +655,7 @@ int main() {
 
 ### Question 13
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 if ( -10 )
@@ -695,7 +695,7 @@ int main() {
 
 ### Question 14
 
-**Sudo code:**
+**Pseudocode:**
 
 ```c
 int num = 10 ;
