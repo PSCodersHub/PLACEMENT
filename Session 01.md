@@ -43,31 +43,99 @@ int main() {
 ---
 
 > [!IMPORTANT]
-># Operator Categories:
-
-**B U A S R E B L T A C**
-
-- **U = Unary operators** (++, --, !, etc.)
-- **A = Arithmetic operators** (+, -, *, /, %)
-- **S = Shift operators** (<<, >>)
-- **R = Relational operators** (<, >, <=, >=)
-- **E = Equality operators** (==, !=)
-- **B = Bitwise operators** (&, |, ^, ~)
-- **L = Logical operators** (&&, ||)
-- **T = Ternary operator** (?:)
-- **A = Assignment operators** (=, +=, -=, etc.)
-- **C = Comma operator** (,)
-
-And the second mnemonic **B A D M A S** reminds us of **operator precedence order**:
-- **B = Brackets**
-- **A = Arithmetic**
-- **D = Division/Multiplication**
-- **M = Modulus**
-- **A = Addition/Subtraction**
-- **S = Special operators (like relational/logical)**
-
-> **📌NOTE:** These categories and precedence rules are applied throughout Questions 4, 5, 6, 9, and 14 in this session.
-
+>
+> ## Operator Categories
+>
+> A useful way to remember the major categories of C operators is:
+>
+> **P U A S R E B L T A C**
+>
+> * **P = Primary / Postfix operators** — `()`, `[]`, `.`, `->`, function calls, postfix `++` and `--`
+> * **U = Unary operators** — prefix `++`, `--`, `+`, `-`, `!`, `~`, `*`, `&`, `sizeof`, type cast, etc.
+> * **A = Arithmetic operators** — `*`, `/`, `%`, `+`, `-`
+> * **S = Shift operators** — `<<`, `>>`
+> * **R = Relational operators** — `<`, `>`, `<=`, `>=`
+> * **E = Equality operators** — `==`, `!=`
+> * **B = Bitwise operators** — `&`, `^`, `|`
+> * **L = Logical operators** — `&&`, `||`
+> * **T = Ternary / Conditional operator** — `?:`
+> * **A = Assignment operators** — `=`, `+=`, `-=`, `*=`, `/=`, `%=` and others
+> * **C = Comma operator** — `,`
+>
+> ---
+>
+> ## ⚡ Operator Precedence
+>
+> In C, operator precedence determines how an expression is **grouped**. Operators with higher precedence are grouped before operators with lower precedence.
+>
+> ### 🥇 Highest → Lowest
+>
+> > **[ HIGHEST PRECEDENCE ⬆️ ]**
+>
+> | Priority            | Operator Category                       | Operators                                                  |
+> | ------------------- | --------------------------------------- | ---------------------------------------------------------- |
+> | 🟥 **15 — HIGHEST** | **Postfix / Primary**                   | `()`, `[]`, `.`, `->`, function calls, `x++`, `x--`        |
+> | 🟧 **14**           | **Unary**                               | `++x`, `--x`, `+x`, `-x`, `!x`, `~x`, `*x`, `&x`, `sizeof` |
+> | 🟨 **13**           | **Multiplication / Division / Modulus** | `*`, `/`, `%`                                              |
+> | 🟨 **12**           | **Addition / Subtraction**              | `+`, `-`                                                   |
+> | 🟩 **11**           | **Shift**                               | `<<`, `>>`                                                 |
+> | 🟩 **10**           | **Relational**                          | `<`, `<=`, `>`, `>=`                                       |
+> | 🟦 **9**            | **Equality**                            | `==`, `!=`                                                 |
+> | 🟦 **8**            | **Bitwise AND**                         | `&`                                                        |
+> | 🟪 **7**            | **Bitwise XOR**                         | `^`                                                        |
+> | 🟪 **6**            | **Bitwise OR**                          | `\|`                                                       |
+> | 🟪 **5**            | **Logical AND**                         | `&&`                                                       |
+> | 🟪 **4**            | **Logical OR**                          | `\|\|`                                                     |
+> | 🟫 **3**            | **Conditional / Ternary**               | `?:`                                                       |
+> | ⬛ **2**             | **Assignment**                          | `=`, `+=`, `-=`, `*=`, `/=`, `%=` and others               |
+> | ⬜ **1 — LOWEST**    | **Comma**                               | `,`                                                        |
+>
+> > **[ ⬇️ LOWEST PRECEDENCE ]**
+>
+> ### 🏷️ Quick Priority Badge
+>
+> **🥇 HIGHEST**
+>
+> `Postfix → Unary → Multiplication/Division/Modulus → Addition/Subtraction → Shift → Relational → Equality → Bitwise AND → Bitwise XOR → Bitwise OR → Logical AND → Logical OR → Conditional → Assignment → Comma`
+>
+> **⬇️ LOWEST**
+>
+> ---
+>
+> ### 🔄 Associativity
+>
+> **Precedence** tells us **which operator group has priority**.
+>
+> **Associativity** tells us **which direction to group operators when they have the same precedence**.
+>
+> For example:
+>
+> ```c
+> 5 / 2 * 6
+> ```
+>
+> Both `/` and `*` have the **same precedence** and use **left-to-right associativity**:
+>
+> ```text
+> (5 / 2) * 6
+> ```
+>
+> Therefore:
+>
+> ```text
+> 5 / 2 = 2
+> 2 * 6 = 12
+> ```
+>
+> ---
+>
+> **📌 NOTE:** Precedence determines how an expression is grouped, while **associativity** determines the direction in which operators of the same precedence are grouped. For example, `*`, `/`, and `%` have the same precedence and are **grouped left-to-right**, while assignment operators are **grouped right-to-left**.
+>
+> **📌 IMPORTANT:** **Operator precedence is not the same as order of evaluation.** Precedence determines the grammatical grouping of an expression; it does not by itself determine when each operand is evaluated.
+>
+> **📌 REMEMBER:** Do **not** use a generic **BODMAS/BADMAS rule** for C expressions. Instead, use the **C operator precedence table**, followed by **associativity** when operators have equal precedence.
+>
+> These operator categories and precedence rules are applied throughout **Questions 4, 5, 6, 9, and 14** in this session.
 
 ---
 
