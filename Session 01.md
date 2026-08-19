@@ -1,4 +1,4 @@
-# PLACEMENT – Session 1  
+# PLACEMENT – Session 1: Logical Reasoning
 ## Date: 13th August 2026
 
 ### Question 1
