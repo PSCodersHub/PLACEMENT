@@ -1,6 +1,8 @@
 # PLACEMENT – Session 3: Logical Reasoning
 ## Date: 20th August 2026
 
+### *Predict the Output or Errors if any...*
+
 ### Q1
 
 **Code:**
@@ -359,8 +361,6 @@ void main()
 
 ### Q13. WAP a Program to check the number is even or odd .
 
-**Program Code:**
-
 ```c
 #include <stdio.h>
 
@@ -465,8 +465,6 @@ int main() {
 ---
 
 ### Q15. WAP to check the number is prime or not .
-
-**Program Code:**
 
 ```c
 #include <stdio.h>
