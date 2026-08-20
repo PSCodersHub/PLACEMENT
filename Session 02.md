@@ -77,18 +77,23 @@ The man will earn a **profit of ₹24**.
 
 **Ans:-**
 
-The **Principal (P)** is ₹5000.  
-The **Rate of Interest (R)** is 10% per annum.  
-The **Time (T)** is 3 years.  
+The **Principal (P)** is **₹5000**.  
+The **Rate of Interest (R)** is **10% per annum**.  
+The **Time (T)** is **3 years**.
 
-Simple Interest (SI) is calculated using the formula:  
-SI = (Principal × Rate × Time) ÷ 100  
+First, we find the Simple Interest for 1 year (**10% of ₹5000**):
 
-Substituting the values:  
-SI = (5000 × 10 × 3) ÷ 100  
-SI = 1500  
+Simple Interest for 1 year  
+= $5000 \times \frac{10}{100}$  
+= ₹500
 
-The **Simple Interest** is **₹1500**.
+Now, we find the Simple Interest for 3 years:
+
+Simple Interest for 3 years  
+= $500 \times 3$  
+= ₹1500
+
+The Simple Interest is **₹1500**.
 
 ![Simple Interest](https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/3.png)
 
