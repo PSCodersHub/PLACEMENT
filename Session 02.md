@@ -47,7 +47,7 @@ The **Cost Price (CP)** of the article is **₹500**.
 ---
 
 ### Profit and Loss
-* **Note:** In Profit and Loss, base is Cost Prize (CP).
+* **Note:** In Profit and Loss, base is Cost Price (CP).
 * **Note:** In Simple interest and Compound interest, base is Principle.
 
 ---
