@@ -340,8 +340,8 @@ int main()
 ### Q9. Pattern-9 (Butterfly)
 
 <div align="center">
-  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/39.jpg" alt="Pattern-09" width="500">
-  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/40.jpg" alt="Pattern-9" width="500">
+  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/39.jpg" alt="Pattern-09" width="400">
+  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/40.jpg" alt="Pattern-9" width="400">
 </div>
 
 **Code:**
