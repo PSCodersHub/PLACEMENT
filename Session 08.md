@@ -84,6 +84,8 @@
   <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/66.jpg" alt="Application 2 Concepts" width="500">
 </div>
 
+---
+
 **4. The price of petrol is increased by 20%. By what % should a family reduce the consumption of petrol to maintain the same expenditure on petrol as before?**
 
 **Ans:-**
