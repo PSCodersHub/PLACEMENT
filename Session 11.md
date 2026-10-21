@@ -186,38 +186,115 @@ The AB Method is applied **twice in sequence** — combine the first two changes
 
 **Ans:-**
 
-> **Method - 2 (using AB Method net %):**
-> - 3 successive 10% increases = 33.1% net increase (from above)
-> - Increase in population $= 50000 \times \dfrac{33.1}{100} = 16550$
-> - Population after 3 years $= 50000 + 16550 = 66550$
+> **Method - 1 (Year-by-Year Calculation):**
 >
-> **OR directly:**
-> - Population after 3 years $= 50000 \times \dfrac{133.1}{100} = 66550$
+> - Present population = 50000
+>
+> - **After 1st year:**
+>   - Increase in population $= 50000 \times \dfrac{10}{100} = 5000$
+>   - Population after 1st year $= 50000 + 5000 = 55000$
+>
+> - **After 2nd year:**
+>   - Increase in population $= 55000 \times \dfrac{10}{100} = 5500$
+>   - Population after 2nd year $= 55000 + 5500 = 60500$
+>
+> - **After 3rd year:**
+>   - Increase in population $= 60500 \times \dfrac{10}{100} = 6050$
+>   - Population after 3rd year $= 60500 + 6050 = 66550$
+>
+> - **Therefore, population after 3 years = 66550**
+>
+> *Note: Every year's 10% increase is calculated on the population at the beginning of that year, not on the original population.*
 
 <div align="center">
-  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/93.jpg" alt="Population Problem 1" width="500">
+  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/98.jpg" alt="Population Problem 1 - Method 1 Year-by-Year Calculation" width="500">
+</div>
+
+---
+
+> **Method - 2 (Using AB Method Net %):**
+>
+> - Three successive increases of 10% are applied.
+>
+> - **Step 1 (Combine the first two increases):**
+>
+>   Using the AB Method:
+>
+>   $10 + 10 + \dfrac{10 \times 10}{100} =$ 21%
+>
+> - **Step 2 (Combine the 21% increase with the third 10% increase):**
+>
+>   $21 + 10 + \dfrac{21 \times 10}{100} =$ 33.1%
+>
+> - Therefore, the net increase in population after 3 years = **33.1%**
+>
+> - **Increase in population:**
+>
+>   $50000 \times \dfrac{33.1}{100} = 16550$
+>
+> - **Population after 3 years:**
+>
+>   $50000 + 16550 = 66550$
+>
+> **OR directly:**
+>
+> Since the total population becomes **100% + 33.1% = 133.1%** of the original population:
+>
+> $50000 \times \dfrac{133.1}{100} = 66550$
+>
+> **Final Answer: 66550**
+
+<div align="center">
+  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/93.jpg" alt="Population Problem 1 - Method 2 using AB Method" width="500">
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/94.jpg" alt="Population Problems" width="500">
+  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/94.jpg" alt="Population Problem 2 - Question and Options" width="500">
 </div>
 
-**10. The population of a town is 72600. If it increases by 10% every year, what was the population 2 years ago?**  
+**10. The population of a town is 72600. If it increases by 10% every year, what was the population 2 years ago?**
+
 (a) 87646 &nbsp; &nbsp; (b) 58606 &nbsp; &nbsp; (c) 57354 &nbsp; &nbsp; (d) 60000
 
 **Ans:-**
 
-> **Method - 3 (Reverse using AB Method %):**
-> - 2 years of 10% growth = 21% net increase (from AB Method)
-> - So current population = 121% of the population 2 years ago
-> - $121\% = 72600 \implies 100\% = 72600 \times \dfrac{100}{121} = 60000$
+> **Method - 3 (Reverse Using AB Method %):**
+>
+> We know that the present population is 72600, and it increases by 10% every year.
+> We need to find the population 2 years ago.
+>
+> - **Step 1 (Calculate the net increase over 2 years):**
+>
+>   Using the AB Method:
+>
+>   $10 + 10 + \dfrac{10 \times 10}{100} =$ 21%
+>
+>   Therefore, the net increase over 2 years = **21%**
+>
+> - **Step 2 (Find the total percentage of the original population):**
+>
+>   Original population = 100%
+>
+>   Increase over 2 years = 21%
+>
+>   Therefore, present population = **100% + 21% = 121%** of the population 2 years ago.
+>
+> - **Step 3 (Calculate the original population):**
+>
+>   If **121% = 72600**, then:
+>
+>   100% $= 72600 \times \dfrac{100}{121}$
+>
+>   $= 60000$
+>
+> - **Therefore, population 2 years ago = 60000**
 
 **Correct Option: (d)**
 
 <div align="center">
-  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/95.jpg" alt="Population Problem 2" width="500">
+  <img src="https://github.com/PSCodersHub/PLACEMENT/raw/main/Assets/95.jpg" alt="Population Problem 2 - Method 3 Reverse Calculation" width="500">
 </div>
 
 ---
